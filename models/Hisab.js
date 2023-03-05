@@ -15,11 +15,11 @@ const HisabSchema = new mongoose.Schema(
 		sent: {
 			type: String,
 			required: [true, 'Please provide sent'],
-			maxlength: 5,
+			maxlength: 10,
 		},
 		got: {
 			type: String,
-			maxlength: 5,
+			maxlength: 10,
 		},
 		status: {
 			type: String,
